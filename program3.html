@@ -1,0 +1,43 @@
+<!-- simple function -->
+<script type="text/javascript">
+
+
+    function greter() {
+    var a = parseInt(prompt("Enter First Number:"));
+    var b = parseInt(prompt("Enter Second Number:"));
+    var c = parseInt(prompt("Enter Third Number:"));
+    var d = parseInt(prompt("Enter Four Number:"));
+        if (a > b) {
+            if (a > c) {
+                if (a > d) {
+                    document.write("A is Big");
+                } else {
+                    document.write("D is Big");
+                }
+            } else {
+                if (c > d) {
+                    document.write("C is Big");
+                } else {
+                    document.write("D is Big");
+                }
+            }
+        }else{
+            if (b > c) {
+                if (b > d) {
+                    document.write("B is Big");
+                } else {
+                    document.write("D is Big");
+                }
+            } else {
+                if (c > d) {
+                    document.write("C is Big");
+                } else {
+                    document.write("D is Big");
+                }
+            } 
+        }
+
+    }
+
+    greter();
+</script>

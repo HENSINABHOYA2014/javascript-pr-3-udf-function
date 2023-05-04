@@ -1,0 +1,28 @@
+<!-- Simple Function -->
+<script type="text/javascript">
+    function calculator() {
+        var a = 10;
+        var b = 5;
+        var choice = (prompt("Enter (+,-,*,/):"));
+
+        switch (choice) {
+            case '+': {
+                console.log("Ans=" + (a + b));
+                break;
+            }
+            case '-': {
+                console.log("Ans=" + (a - b));
+                break;
+            }
+            case '*': {
+                console.log("Ans=" + (a * b));
+                break;
+            }
+            case '/': {
+                console.log("Ans=" + (a / b));
+                break;
+            }
+        }
+    }
+    calculator();
+</script>

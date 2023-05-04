@@ -1,0 +1,26 @@
+<!--  no return with parameter function -->
+<script type="text/javascript">
+    var a = parseInt(prompt("Enter First Number:"));
+    var b = parseInt(prompt("Enter Second Number:"));
+    var c = parseInt(prompt("Enter Third Number:"));
+    var d = parseInt(prompt("Enter Third Number:"));
+
+
+    function greter() {
+        if (a > b && a > c && a > d) {
+            console.log("A is Big");
+            document.write("<h1>A is Big</h1>");
+        } else if (b > c && b > d) {
+            console.log("B is Big");
+            document.write("<h1>B is Big</h1>");
+        } else if (c > d) {
+            console.log("C is Big");
+            document.write("<h1>C is Big</h1>");
+        } else {
+            console.log("D is Big");
+            document.write("<h1>D is Big</h1>");
+        }
+
+    }
+    greter(a, b, c, d);
+</script>
